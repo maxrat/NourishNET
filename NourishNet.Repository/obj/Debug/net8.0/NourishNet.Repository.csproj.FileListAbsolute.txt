@@ -1,0 +1,15 @@
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\bin\Debug\net8.0\NourishNet.Repository.deps.json
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\bin\Debug\net8.0\NourishNet.Repository.dll
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\bin\Debug\net8.0\NourishNet.Repository.pdb
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\bin\Debug\net8.0\NourishNet.Domain.dll
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\bin\Debug\net8.0\NourishNet.Domain.pdb
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.csproj.AssemblyReference.cache
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.AssemblyInfoInputs.cache
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.AssemblyInfo.cs
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.csproj.CoreCompileInputs.cache
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishN.9C315C31.Up2Date
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.dll
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\refint\NourishNet.Repository.dll
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\NourishNet.Repository.pdb
+C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\obj\Debug\net8.0\ref\NourishNet.Repository.dll
