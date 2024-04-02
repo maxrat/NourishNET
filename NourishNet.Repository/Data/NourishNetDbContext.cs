@@ -25,14 +25,7 @@ public class NourishNetDbContext : DbContext
         modelBuilder.Entity<City>().HasData(
             new City { Id = 1, Name = "Bucuresti" },
             new City { Id = 2, Name = "Cluj-Napoca" },
-            new City { Id = 3, Name = "Timisoara" },
-            new City { Id = 4, Name = "Iasi" },
-            new City { Id = 5, Name = "Constanta" },
-            new City { Id = 6, Name = "Craiova" },
-            new City { Id = 7, Name = "Brasov" },
-            new City { Id = 8, Name = "Galati" },
-            new City { Id = 9, Name = "Ploiesti" },
-            new City { Id = 10, Name = "Oradea" }
+            new City { Id = 3, Name = "Timisoara" }
         );
 
         modelBuilder.Entity<Courier>().HasData(

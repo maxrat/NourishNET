@@ -10,14 +10,13 @@ using OrderStatusEnum = NourishNet.Domain.Enums.OrderStatus;
 [ApiController]
 public class CourierController : ControllerBase
 {
-    private readonly NourishNetDbContext _context;
 
-    public CourierController(NourishNetDbContext context)
+    public CourierController()
     {
-        _context = context;
     }
 
-
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpGet]
     public async Task<ActionResult<IList<CourierDTO>>> GetAllAsync()
     {       

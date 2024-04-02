@@ -9,28 +9,33 @@ using OrderStatusEnum = NourishNet.Domain.Enums.OrderStatus;
 [ApiController]
 public class OrderController : ControllerBase
 {
-    private readonly NourishNetDbContext _context;
-
-    public OrderController(NourishNetDbContext context)
-    {
-        _context = context;
+    public OrderController()
+    {       
     }
 
-    // POST: api/Order
+    [ProducesResponseType(type: typeof(OrderDTO) , StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpPost]
-    public async Task<ActionResult<OrderDTO>> CreateOrder()
+    public async Task<ActionResult<OrderDTO>> CreateOrder(OrderDTO orderDTO)
     {
         return Ok();
     }
 
-    // GET: api/Order/5
-    [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [HttpGet()]
     public async Task<ActionResult<OrderDTO>> GetOrder(int id)
     {
         return Ok();
     }
 
-    [HttpPatch("{orderId:int}/status")] 
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [HttpPatch()] 
     public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] UpdateOrderStatusDTO updateStatusDTO)
     {
         return Ok();
