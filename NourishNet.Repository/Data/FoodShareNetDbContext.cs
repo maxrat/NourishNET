@@ -20,6 +20,11 @@ public class FoodShareNetDbContext : DbContext
     public DbSet<City> Cities { get; set; }
     public DbSet<Product> Products { get; set; }
 
+   
+    
+    
+    
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<City>().HasData(
@@ -61,7 +66,7 @@ public class FoodShareNetDbContext : DbContext
             .HasOne(o => o.Donation)
             .WithMany()
             .HasForeignKey(o => o.DonationId)
-            .OnDelete(DeleteBehavior.Restrict); // Specify ON DE
+            .OnDelete(DeleteBehavior.Restrict); 
 
         base.OnModelCreating(modelBuilder);
     }

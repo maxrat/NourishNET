@@ -1,9 +1,5 @@
-﻿using FoodShareNet.Domain.Entities;
-using FoodShareNet.Repository.Data;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using FoodShareNetAPI.DTO.Beneficiary;
-using FoodShareNetAPI.DTO.Product;
 
 namespace FoodShareNetAPI.Controllers;
 
@@ -14,8 +10,9 @@ public class BeneficiaryController : ControllerBase
 
     public BeneficiaryController()
     {
-        
+
     }
+
 
     [ProducesResponseType(typeof(IList<BeneficiaryDTO>), 
         StatusCodes.Status200OK)]
@@ -49,7 +46,8 @@ public class BeneficiaryController : ControllerBase
     
     
     
-    [ProducesResponseType(typeof(BeneficiaryDTO), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(BeneficiaryDTO), 
+        StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpGet]
@@ -58,25 +56,87 @@ public class BeneficiaryController : ControllerBase
         return Ok();
     }
 
-    [ProducesResponseType(typeof(BeneficiaryDetailDTO), StatusCodes.Status201Created)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+    
+    
+    
+    [ProducesResponseType(typeof(BeneficiaryDetailDTO), 
+        StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpPost]
-    public async Task<ActionResult<BeneficiaryDetailDTO>> CreateAsync(CreateBeneficiaryDTO createBeneficiaryDTO)
+    public async Task<ActionResult<BeneficiaryDetailDTO>> 
+        CreateAsync(CreateBeneficiaryDTO createBeneficiaryDTO)
     {
        return Ok();
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpPut]
-    public async Task<IActionResult> EditAsync(int id, EditBeneficiaryDTO editBeneficiaryDTO)
+    public async Task<IActionResult> 
+        EditAsync(int id, EditBeneficiaryDTO editBeneficiaryDTO)
     {
         return Ok();
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]

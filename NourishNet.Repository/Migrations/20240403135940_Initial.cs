@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FoodShareNet.Repository.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -245,9 +245,9 @@ namespace FoodShareNet.Repository.Migrations
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
                 {
-                    { 1, "branza" },
-                    { 2, "oua" },
-                    { 3, "sunca" }
+                    { 1, "Tomatoes" },
+                    { 2, "Potatoes" },
+                    { 3, "Meat" }
                 });
 
             migrationBuilder.CreateIndex(

@@ -14,7 +14,8 @@ namespace FoodShareNetAPI
             // Add services to the container.
 
             builder.Services.AddDbContext<FoodShareNetDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.
+                GetConnectionString("DefaultConnection")));
 
             builder.Services.AddControllers();
 
