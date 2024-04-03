@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using NourishNet.Domain.Entities;
-using NourishNet.Repository.Data;
-using NourishNetAPI.DTO.Donation;
+using FoodShareNet.Domain.Entities;
+using FoodShareNet.Repository.Data;
+using FoodShareNetAPI.DTO.Donation;
 
-namespace NourishNetAPI.Controllers;
+namespace FoodShareNetAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]/[action]")]

@@ -1,11 +1,11 @@
-﻿using NourishNet.Domain.Entities;
-using NourishNet.Repository.Data;
+﻿using FoodShareNet.Domain.Entities;
+using FoodShareNet.Repository.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using NourishNetAPI.DTO.Beneficiary;
-using NourishNetAPI.DTO.Product;
+using FoodShareNetAPI.DTO.Beneficiary;
+using FoodShareNetAPI.DTO.Product;
 
-namespace NourishNetAPI.Controllers;
+namespace FoodShareNetAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]/[action]")]
@@ -17,7 +17,8 @@ public class BeneficiaryController : ControllerBase
         
     }
 
-    [ProducesResponseType(typeof(IList<BeneficiaryDTO>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(IList<BeneficiaryDTO>), 
+        StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpGet]
@@ -26,6 +27,28 @@ public class BeneficiaryController : ControllerBase
         return Ok();
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
     [ProducesResponseType(typeof(BeneficiaryDTO), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]

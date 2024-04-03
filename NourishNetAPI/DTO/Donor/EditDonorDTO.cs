@@ -1,4 +1,4 @@
-﻿namespace NourishNetAPI.DTO.Donor;
+﻿namespace FoodShareNetAPI.DTO.Donor;
 
 public class EditDonorDTO
 {

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NourishNet.Repository
-build_property.ProjectDir = C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Repository\
+build_property.ProjectDir = C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

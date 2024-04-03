@@ -1,0 +1,16 @@
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\bin\Debug\net8.0\FoodShareNet.Repository.deps.json
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\bin\Debug\net8.0\FoodShareNet.Repository.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\bin\Debug\net8.0\FoodShareNet.Repository.pdb
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\bin\Debug\net8.0\FoodShareNet.Domain.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\bin\Debug\net8.0\FoodShareNet.Domain.pdb
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.csproj.AssemblyReference.cache
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.AssemblyInfoInputs.cache
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.AssemblyInfo.cs
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.csproj.CoreCompileInputs.cache
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.sourcelink.json
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.csproj.CopyComplete
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\refint\FoodShareNet.Repository.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\FoodShareNet.Repository.pdb
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Repository\obj\Debug\net8.0\ref\FoodShareNet.Repository.dll

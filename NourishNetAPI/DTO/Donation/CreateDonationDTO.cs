@@ -1,4 +1,4 @@
-﻿namespace NourishNetAPI.DTO.Donation;
+﻿namespace FoodShareNetAPI.DTO.Donation;
 
 public class CreateDonationDTO
 {

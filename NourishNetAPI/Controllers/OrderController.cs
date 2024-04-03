@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using NourishNet.Domain.Entities;
-using NourishNet.Repository.Data;
-using NourishNetAPI.DTO.Order;
-using OrderStatusEnum = NourishNet.Domain.Enums.OrderStatus;
+using FoodShareNet.Domain.Entities;
+using FoodShareNet.Repository.Data;
+using FoodShareNetAPI.DTO.Order;
+using OrderStatusEnum = FoodShareNet.Domain.Enums.OrderStatus;
 
 [Route("api/[controller]")]
 [ApiController]

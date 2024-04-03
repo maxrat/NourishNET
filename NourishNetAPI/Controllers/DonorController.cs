@@ -1,11 +1,11 @@
-﻿using NourishNet.Domain.Entities;
-using NourishNet.Repository.Data;
+﻿using FoodShareNet.Domain.Entities;
+using FoodShareNet.Repository.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using NourishNetAPI.DTO.Donor;
-using NourishNetAPI.DTO.Donation; // Ensure you have the corresponding DTO namespace
+using FoodShareNetAPI.DTO.Donor;
+using FoodShareNetAPI.DTO.Donation; // Ensure you have the corresponding DTO namespace
 
-namespace NourishNetAPI.Controllers;
+namespace FoodShareNetAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]/[action]")]

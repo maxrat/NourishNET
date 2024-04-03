@@ -1,4 +1,4 @@
-﻿namespace NourishNetAPI.DTO.Order;
+﻿namespace FoodShareNetAPI.DTO.Order;
 public class OrderDetailsDTO
 {
     public int Id { get; set; }

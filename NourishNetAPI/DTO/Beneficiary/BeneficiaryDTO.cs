@@ -1,4 +1,4 @@
-﻿namespace NourishNetAPI.DTO.Beneficiary;
+﻿namespace FoodShareNetAPI.DTO.Beneficiary;
 
 public class BeneficiaryDTO
 {

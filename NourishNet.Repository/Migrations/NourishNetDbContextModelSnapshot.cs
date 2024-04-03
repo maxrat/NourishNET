@@ -4,14 +4,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NourishNet.Repository.Data;
+using FoodShareNet.Repository.Data;
 
 #nullable disable
 
-namespace NourishNet.Repository.Migrations
+namespace FoodShareNet.Repository.Migrations
 {
-    [DbContext(typeof(NourishNetDbContext))]
-    partial class NourishNetDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(FoodShareNetDbContext))]
+    partial class FoodShareNetDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace NourishNet.Repository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Beneficiary", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Beneficiary", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace NourishNet.Repository.Migrations
                     b.ToTable("Beneficiaries");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.City", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.City", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -79,45 +79,10 @@ namespace NourishNet.Repository.Migrations
                         {
                             Id = 3,
                             Name = "Timisoara"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Iasi"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "Constanta"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Name = "Craiova"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Name = "Brasov"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Name = "Galati"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Name = "Ploiesti"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Name = "Oradea"
                         });
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Courier", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Courier", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -156,7 +121,7 @@ namespace NourishNet.Repository.Migrations
                         });
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Donation", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Donation", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -190,7 +155,7 @@ namespace NourishNet.Repository.Migrations
                     b.ToTable("Donations");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.DonationStatus", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.DonationStatus", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -223,7 +188,7 @@ namespace NourishNet.Repository.Migrations
                         });
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Donor", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Donor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -247,7 +212,7 @@ namespace NourishNet.Repository.Migrations
                     b.ToTable("Donors");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Order", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -286,7 +251,7 @@ namespace NourishNet.Repository.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.OrderStatus", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.OrderStatus", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -324,7 +289,7 @@ namespace NourishNet.Repository.Migrations
                         });
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Product", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -357,9 +322,9 @@ namespace NourishNet.Repository.Migrations
                         });
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Beneficiary", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Beneficiary", b =>
                 {
-                    b.HasOne("NourishNet.Domain.Entities.City", "City")
+                    b.HasOne("FoodShareNet.Domain.Entities.City", "City")
                         .WithMany()
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -368,21 +333,21 @@ namespace NourishNet.Repository.Migrations
                     b.Navigation("City");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Donation", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Donation", b =>
                 {
-                    b.HasOne("NourishNet.Domain.Entities.Donor", "Donor")
+                    b.HasOne("FoodShareNet.Domain.Entities.Donor", "Donor")
                         .WithMany("Donations")
                         .HasForeignKey("DonorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NourishNet.Domain.Entities.Product", "Product")
+                    b.HasOne("FoodShareNet.Domain.Entities.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NourishNet.Domain.Entities.DonationStatus", "Status")
+                    b.HasOne("FoodShareNet.Domain.Entities.DonationStatus", "Status")
                         .WithMany()
                         .HasForeignKey("StatusId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -395,9 +360,9 @@ namespace NourishNet.Repository.Migrations
                     b.Navigation("Status");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Donor", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Donor", b =>
                 {
-                    b.HasOne("NourishNet.Domain.Entities.City", "City")
+                    b.HasOne("FoodShareNet.Domain.Entities.City", "City")
                         .WithMany()
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -406,27 +371,27 @@ namespace NourishNet.Repository.Migrations
                     b.Navigation("City");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Order", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Order", b =>
                 {
-                    b.HasOne("NourishNet.Domain.Entities.Beneficiary", "Beneficiary")
+                    b.HasOne("FoodShareNet.Domain.Entities.Beneficiary", "Beneficiary")
                         .WithMany()
                         .HasForeignKey("BeneficiaryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NourishNet.Domain.Entities.Courier", "Courier")
+                    b.HasOne("FoodShareNet.Domain.Entities.Courier", "Courier")
                         .WithMany()
                         .HasForeignKey("CourierId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NourishNet.Domain.Entities.Donation", "Donation")
+                    b.HasOne("FoodShareNet.Domain.Entities.Donation", "Donation")
                         .WithMany()
                         .HasForeignKey("DonationId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("NourishNet.Domain.Entities.OrderStatus", "OrderStatus")
+                    b.HasOne("FoodShareNet.Domain.Entities.OrderStatus", "OrderStatus")
                         .WithMany()
                         .HasForeignKey("OrderStatusId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -441,7 +406,7 @@ namespace NourishNet.Repository.Migrations
                     b.Navigation("OrderStatus");
                 });
 
-            modelBuilder.Entity("NourishNet.Domain.Entities.Donor", b =>
+            modelBuilder.Entity("FoodShareNet.Domain.Entities.Donor", b =>
                 {
                     b.Navigation("Donations");
                 });

@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jxdTT8o8uPSOwAHGoeD/pv/A/+e4X+Mkutn7r48t7M/0gx8vHXxWAgD5zD2a4Xk80cwBmPlkIXojUlcwv7dELg==",
+  "dgSpecHash": "ldSo5S9zDcg0hjnuwzuXVFJ4Q+OllB6R+S3U7kkWYSKemFAcypZapIWuCwLrlNfPjgkHc31s5xFeWYV2cM7Uug==",
   "success": true,
-  "projectFilePath": "C:\\LigaAC\\2024\\Code\\NourishNET-master\\NourishNET-master\\NourishNet.Domain\\NourishNet.Domain.csproj",
+  "projectFilePath": "C:\\Users\\dan.ratiu\\Source\\Repos\\NourishNET\\NourishNet.Domain\\FoodShareNet.Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.syncfusion.com/xamarin'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

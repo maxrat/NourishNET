@@ -9,3 +9,15 @@ C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Domain\obj\De
 C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Domain\obj\Debug\net8.0\refint\NourishNet.Domain.dll
 C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.pdb
 C:\LigaAC\2024\Code\NourishNET-master\NourishNET-master\NourishNet.Domain\obj\Debug\net8.0\ref\NourishNet.Domain.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\bin\Debug\net8.0\NourishNet.Domain.deps.json
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\bin\Debug\net8.0\NourishNet.Domain.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\bin\Debug\net8.0\NourishNet.Domain.pdb
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.AssemblyInfoInputs.cache
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.AssemblyInfo.cs
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.sourcelink.json
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\refint\NourishNet.Domain.dll
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\NourishNet.Domain.pdb
+C:\Users\dan.ratiu\Source\Repos\NourishNET\NourishNet.Domain\obj\Debug\net8.0\ref\NourishNet.Domain.dll

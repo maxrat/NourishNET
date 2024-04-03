@@ -1,6 +1,6 @@
-@NourishNetAPI_HostAddress = http://localhost:5022
+@FoodShareNetAPI_HostAddress = http://localhost:5022
 
-GET {{NourishNetAPI_HostAddress}}/weatherforecast/
+GET {{FoodShareNetAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

@@ -1,4 +1,4 @@
-﻿namespace NourishNet.Domain.Enums
+﻿namespace FoodShareNet.Domain.Enums
 {
     public enum DonationStatus
     {

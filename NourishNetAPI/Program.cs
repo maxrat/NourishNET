@@ -1,9 +1,9 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using NourishNet.Repository.Data;
+using FoodShareNet.Repository.Data;
 
-namespace NourishNetAPI
+namespace FoodShareNetAPI
 {
     public class Program
     {
@@ -13,7 +13,7 @@ namespace NourishNetAPI
 
             // Add services to the container.
 
-            builder.Services.AddDbContext<NourishNetDbContext>(options =>
+            builder.Services.AddDbContext<FoodShareNetDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddControllers();

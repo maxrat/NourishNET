@@ -1,22 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using NourishNet.Domain.Entities;
-using NourishNet.Repository.Data;
-using NourishNetAPI.DTO.Product;
+using FoodShareNetAPI.DTO.Product;
 
 
 [Route("api/[controller]")]
 [ApiController]
 public class ProductController : ControllerBase
 {
-    private readonly NourishNetDbContext _context;
-
-    public ProductController(NourishNetDbContext context)
+    
+    public ProductController()
     {
-        _context = context;
+       
     }
 
-
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [HttpGet]
     public async Task<ActionResult<IList<ProductDTO>>> GetAllAsync()
     {

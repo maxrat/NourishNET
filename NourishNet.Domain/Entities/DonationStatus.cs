@@ -1,4 +1,4 @@
-﻿namespace NourishNet.Domain.Entities;
+﻿namespace FoodShareNet.Domain.Entities;
 
 public class DonationStatus
 {

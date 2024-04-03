@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NourishNet.Domain.Entities;
+using FoodShareNet.Domain.Entities;
 
-namespace NourishNet.Repository.Data;
+namespace FoodShareNet.Repository.Data;
 
-public class NourishNetDbContext : DbContext
+public class FoodShareNetDbContext : DbContext
 {
-    public NourishNetDbContext(DbContextOptions<NourishNetDbContext> options)
+    public FoodShareNetDbContext(DbContextOptions<FoodShareNetDbContext> options)
         : base(options)
     {
     }
@@ -48,9 +48,9 @@ public class NourishNetDbContext : DbContext
         );
 
         modelBuilder.Entity<Product>().HasData(
-            new Product { Id = 1, Name = "branza" },
-            new Product { Id = 2, Name = "oua" },
-            new Product { Id = 3, Name = "sunca" }
+            new Product { Id = 1, Name = "Tomatoes" },
+            new Product { Id = 2, Name = "Potatoes" },
+            new Product { Id = 3, Name = "Meat" }
         );
 
         modelBuilder.Entity<Courier>()

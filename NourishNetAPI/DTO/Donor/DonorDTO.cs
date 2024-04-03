@@ -1,6 +1,6 @@
-﻿using NourishNetAPI.DTO.Donation;
+﻿using FoodShareNetAPI.DTO.Donation;
 
-namespace NourishNetAPI.DTO.Donor;
+namespace FoodShareNetAPI.DTO.Donor;
 
 public class DonorDTO
 {

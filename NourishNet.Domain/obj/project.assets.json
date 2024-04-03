@@ -8,32 +8,35 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dani\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dan.ratiu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LigaAC\\2024\\Code\\NourishNET-master\\NourishNET-master\\NourishNet.Domain\\NourishNet.Domain.csproj",
-      "projectName": "NourishNet.Domain",
-      "projectPath": "C:\\LigaAC\\2024\\Code\\NourishNET-master\\NourishNET-master\\NourishNet.Domain\\NourishNet.Domain.csproj",
-      "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-      "outputPath": "C:\\LigaAC\\2024\\Code\\NourishNET-master\\NourishNET-master\\NourishNet.Domain\\obj\\",
+      "projectUniqueName": "C:\\Users\\dan.ratiu\\Source\\Repos\\NourishNET\\NourishNet.Domain\\FoodShareNet.Domain.csproj",
+      "projectName": "FoodShareNet.Domain",
+      "projectPath": "C:\\Users\\dan.ratiu\\Source\\Repos\\NourishNET\\NourishNet.Domain\\FoodShareNet.Domain.csproj",
+      "packagesPath": "C:\\Users\\dan.ratiu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dan.ratiu\\Source\\Repos\\NourishNET\\NourishNet.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dan.ratiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\synergo\\3ndey_Git\\3ndey-Mobile\\packages\\Fantacode.Plugin.CrossPlacePicker.1.0.2": {},
-        "http://nuget.syncfusion.com/xamarin": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -48,9 +51,7 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -72,16 +73,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.syncfusion.com/xamarin'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
